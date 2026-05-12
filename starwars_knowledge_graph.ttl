@@ -1,0 +1,16 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sw: <http://www.example.org/starwars#> .
+
+sw:Boba_Fett a owl:NamedIndividual ;
+    sw:hasWeapon sw:EE-3_blaster .
+
+sw:Luke_Skywalker a owl:NamedIndividual ;
+    sw:locatedIn sw:Tatooine ;
+    sw:relativeOf sw:Leia_Organa .
+
+sw:EE-3_blaster a owl:NamedIndividual .
+
+sw:Leia_Organa a owl:NamedIndividual .
+
+sw:Tatooine a owl:NamedIndividual .
+
